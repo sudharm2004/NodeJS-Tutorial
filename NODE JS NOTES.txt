@@ -1,0 +1,27 @@
+console in javascript uses console web api while in node js it uses console module
+
+Modules are small units of independent, reusable code that is desired to be used as the building blocks in creating a non-trivial Javascript application. 
+They are like inbuilt features.
+
+global Modules:- modules that are not required to be imported or use require method.for eg:-console module,filename,dirname
+Non-global Modules:-modules that are required to be imported or use require method.for eg:-fs,http module
+
+every file is enclosed automaticallyfunction(exports,require,module,__filename,__dirname){
+    //code
+};
+by node js
+
+You can either get whole module or particular function of the module 
+for eg:- you only want readfile function of fs module you can do
+const fs=require('fs').writeFileSync;
+fs('hello.txt','this is hello from node js')
+
+package file keeps the information of your project like package name,description,git repository,packages in project.npm init is used to create package.json
+
+package-lock-json keeps the details of packages.
+
+node js is single threaded.It executed every command line by line
+
+buffer:-temporary memory location required to run the program
+
+path help us to access directory of files 
