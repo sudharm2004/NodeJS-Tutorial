@@ -8,12 +8,12 @@ const server =http.createServer((req,res)=>{
     if(req.url=='/')
     {
         res.statusCode=200;
-        res.end('<h1>this is codewithharry</h1><p>this a way to rock the world</p>')
+        res.end('<h1>this is sudharm jadhav</h1><p>this a way to rock the world</p>')
     }
     else if(req.url=='/about')
     {
         res.statusCode=200;
-        res.end('<h1>this is about codewithharry</h1><p>this about the  way to rock the world</p>')
+        res.end('<h1>this is about sudharm jadhav</h1><p>this about the  way to rock the world</p>')
     }
     else if(req.url=='/bootstrap')
     {
